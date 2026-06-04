@@ -33,6 +33,43 @@ https://www.nasa.gov/stem-content/hack-club-stardance-challenge/
 
 > You can contact me on my [linkedin](https://www.linkedin.com/in/sundeepskp/)
 
+# PLAN
+
 ### Project Intro:
 
 The project is a ROS2 based simulation of an eight legged, eight eyed, spider robot (design inpired by a jumping spider ) that can explore rocky planets like mars.
+![alt text](image.png)
+
+the robot flies using propulsors (not sure which). I need to figure out eight legged locomotion first. so i doubt gazebo a little bit . what i wanna achieve first is manual A S W D controls to move around in a way that it smoothly traverses rocky terrain so like automatically adjusts how far the legs go into the ground and maybe even side to side a little bit (don't wanna perch leg on an unstable rock). I genuinely don't know what tech stack to pick apart from ROS, no idea of simulators. I would even need to like simulate rocky planetary sandy martian ground somehow (mars looks like a good place to start)
+
+
+
+I chose an eight legged one bcz it can traverse the landscape more efficiently than other pedal robot or even  a robotic car for that matter. 
+
+
+
+Then eight eyes both to capture the entire surrounding without distortion and saving time to move its head (it takes a few minutes for instructions to travel from earth to mars).
+
+
+
+
+
+That's what i wanna achieve in this, this much is complicated enough and i don't wanna insert more complications until i do this much
+
+## current techstack in mind
+
+### Gazebo harmoics + ROS2
+
+after a quick lookup I found that with this we can add --
+
+Deformable/uneven terrain via heightmaps (you can import real Mars elevation data from NASA)
+
+Contact physics for leg-ground interaction
+
+Custom robot  URDF/SDF models
+
+>For Mars-like ground specifically, Gazebo supports heightmap terrain from grayscale images. NASA actually publishes Mars elevation data (HiRISE DEMs) you could use directly.
+
+>For legs control-- inverse kinematics (IK) — instead of manually controlling each joint, you tell the foot where to be in 3D space and IK figures out the joint angles. We'll have to place some sensors in the paws of each legs
+
+![alt text](image-1.png)
