@@ -10,6 +10,8 @@
 >created this directory and found out that I need to initialise git here with "git init" and publish the repo on github for hackatime to track the project.
 
 >if you do get stuck like a commit that keep hovering, make sure you didn't just commmit without adding a message, if you did then simply check a file that should have opened in you editor like EDIT_DMS , something like that and on the top linegit branch -M main just add your message and save.
+
+> Then i got to my projects on stardance.hackclub.com (I already added basic details of the project here) then I clicked on attach hackatime project, I attached my hackatime project and done. Now I'll publish devlogs. 
 ```
 How winning prizes works — 
 It's a points-based system:
@@ -19,12 +21,21 @@ Publish it — ship it publicly so others can see it.
 Earn stardust — other teens rate your project, and the higher your rating, the more stardust (points) you earn. Hours spent also factor in (roughly 10 stardust per hour based on the example on the site).
 Spend stardust in the shop — redeem it for real prizes like Raspberry Pis, 3D printers, a Framework Laptop, Meta Quest 3, AMD GPU, iPad, and more.
 
+Voters are randomly assigned your project and asked to score it from 1–9 on four categories:
+
+Originality — how distinct is the project from common projects?
+Technicality — how much effort did you put into the implementation?
+Usability — could someone actually use it? Did they enjoy using it? //maybe I add usability for space companies like NASA/ JAXA / isro ? (I mean i could in theory mail jaxa (they did respond my mail last time) for extra credibility and advice on how to move forward )
+Storytelling — how well did you document the development journey through devlogs, documentation, commit messages, and your README?
 ```
 more useful links
 
 https://www.nasa.gov/stem-content/hack-club-stardance-challenge/
 
 https://lapse.hackclub.com/ (I'll record anything non code here to add it to my total hours. for e.g 3d model of the spider or simulation time)
+
+https://stardance.hackclub.com/guides/how_to_ship#node=other (shipping instructions -- other)
+
 
 ---
 
