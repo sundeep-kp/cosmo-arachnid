@@ -1,5 +1,5 @@
-
->stuff I have done (maybe help someone in the future)
+**Help for anyone new to stardance challenge**
+>stuff I have done (maybe help someone in the future)--
 
 >completed the steps here-- https://auth.hackclub.com/
 
@@ -9,9 +9,13 @@
 
 >created this directory and found out that I need to initialise git here with "git init" and publish the repo on github for hackatime to track the project.
 
+>if you do get stuck like a commit that keep hovering, make sure you didn't just commmit without adding a message, if you did then simply check a file that should have opened in you editor like EDIT_DMS , something like that and on the top linegit branch -M main just add your message and save.
 
+more useful links
 
 https://www.nasa.gov/stem-content/hack-club-stardance-challenge/
+
+---
 
 >### My Intro:
 > I am **sundeep (18 M)** from India. I have been fascinated by machines and robots forever. I have been inspired by people like **Mark Rober** who worked on the **curiosity rover** . I got into robotics for the first time when I made a really simple LED based ironman repulsor in like 7th grade in the middle of the night after crying about it. Then I got my hands into an unused ESP 8266 from my sister's project , then i made a robotic hand in 10th standard, discovered ROS2 in 12th standard and here I am still learning about simulations in my summer vactions after I joined an university (iiitnr). 
