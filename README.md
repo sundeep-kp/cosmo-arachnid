@@ -10,7 +10,16 @@
 >created this directory and found out that I need to initialise git here with "git init" and publish the repo on github for hackatime to track the project.
 
 >if you do get stuck like a commit that keep hovering, make sure you didn't just commmit without adding a message, if you did then simply check a file that should have opened in you editor like EDIT_DMS , something like that and on the top linegit branch -M main just add your message and save.
+```
+How winning prizes works — 
+It's a points-based system:
 
+Build a project — anything technical and open-source: a website, game, app, hardware, simulation (like me).
+Publish it — ship it publicly so others can see it.
+Earn stardust — other teens rate your project, and the higher your rating, the more stardust (points) you earn. Hours spent also factor in (roughly 10 stardust per hour based on the example on the site).
+Spend stardust in the shop — redeem it for real prizes like Raspberry Pis, 3D printers, a Framework Laptop, Meta Quest 3, AMD GPU, iPad, and more.
+
+```
 more useful links
 
 https://www.nasa.gov/stem-content/hack-club-stardance-challenge/
