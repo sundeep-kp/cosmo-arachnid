@@ -76,3 +76,37 @@ Custom robot  URDF/SDF models
 
 ![alt text](image-1.png)
 
+---
+
+This is a really well thought-out project — the reasoning behind the design choices (8 legs for terrain, 8 eyes for full FOV, autonomous adjustments due to signal delay) is exactly the kind of thing that'll make your devlogs compelling and earn good ratings.
+
+Let me help you pick a stack.
+
+---
+
+**Simulator: go with Gazebo, but the newer one**
+
+Your doubt about Gazebo is valid for the *old* Gazebo (now called Gazebo Classic). Use **Gazebo Harmonic** (also called just "Gazebo" or gz-sim) — it's the current one and integrates natively with ROS 2. It can handle:
+- Deformable/uneven terrain via heightmaps (you can import real Mars elevation data from NASA)
+- Contact physics for leg-ground interaction
+- Custom robot URDF/SDF models
+
+For Mars-like ground specifically, Gazebo supports **heightmap terrain** from grayscale images. NASA actually publishes Mars elevation data (HiRISE DEMs) you could use directly.
+
+---
+
+
+
+**Recommended stack summary**
+
+| Layer | Tool |
+|---|---|
+| Middleware | ROS 2 Humble (LTS) |
+| Simulator | Ignition Gazebo Fortress v 6.17.1 |
+| Robot model | URDF + xacro |
+| Joint control | ros2_control |
+| IK library | ikpy or a custom solver |
+| Terrain | Heightmap from Mars DEM data |
+| WASD input | A simple `teleop` ROS 2 node |
+
+---
