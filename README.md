@@ -7,7 +7,7 @@
 
 >completed the steps here to track project time -- https://hackatime.hackclub.com/  (make sure to give access to github)
 
->created this directory and found out that I need to initialise git here with "git init" for hackatime to track the project.
+>created this directory and found out that I need to initialise git here with "git init" and publish the repo on github for hackatime to track the project.
 
 
 
