@@ -24,6 +24,8 @@ more useful links
 
 https://www.nasa.gov/stem-content/hack-club-stardance-challenge/
 
+https://lapse.hackclub.com/ (I'll record anything non code here to add it to my total hours. for e.g 3d model of the spider or simulation time)
+
 ---
 
 >### My Intro:
@@ -73,3 +75,4 @@ Custom robot  URDF/SDF models
 >For legs control-- inverse kinematics (IK) — instead of manually controlling each joint, you tell the foot where to be in 3D space and IK figures out the joint angles. We'll have to place some sensors in the paws of each legs
 
 ![alt text](image-1.png)
+
