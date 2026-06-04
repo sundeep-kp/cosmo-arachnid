@@ -1,7 +1,5 @@
-
-
-
-
+### Cosmo-arachnid
+An 8 legged, 8 eye spider robot that flies and explores rocky planets
 # PLAN
 
 ### Project Intro:
